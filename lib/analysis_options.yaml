@@ -15,3 +15,8 @@ rules:
 - curly_braces_in_flow_control_structures
 - file_names
 - prefer_single_quotes
+
+analyzer:
+  errors:
+    - prefer_single_quotes
+
