@@ -18,5 +18,7 @@ linter:
 
 analyzer:
   errors:
-    prefer_single_quotes: true
+    prefer_single_quotes: error
+    file_names: error
+    always_use_package_imports: error
 
