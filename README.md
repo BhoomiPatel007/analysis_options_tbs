@@ -31,3 +31,5 @@ Add the following line in your analysis_options.yaml file:
 ```yaml
 include: package:analysis_options_tbs/analysis_options.yaml
 ```
+### Get more details about each rules
+[https://dart.dev/tools/linter-rules](https://dart.dev/tools/linter-rules)
