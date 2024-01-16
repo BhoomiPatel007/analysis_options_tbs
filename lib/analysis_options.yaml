@@ -15,10 +15,36 @@ linter:
     - curly_braces_in_flow_control_structures
     - file_names
     - prefer_single_quotes
+    - always_specify_types
+    - avoid_init_to_null
+    - camel_case_extensions
+    - camel_case_types
+    - avoid_unnecessary_containers
+    - null_closures
+    - prefer_final_fields
+    - prefer_final_locals
+    - prefer_final_parameters
+    - prefer_is_empty
+    - prefer_is_not_empty
+    - sized_box_for_whitespace
+    - sort_constructors_first
+    - unnecessary_string_escapes
 
 analyzer:
   errors:
-    prefer_single_quotes: error
     file_names: error
     always_use_package_imports: error
+    avoid_empty_else: error
+    avoid_unnecessary_containers: error
+    camel_case_extensions: error
+    camel_case_types: error
+    null_closures: error
+    prefer_final_fields: error
+    prefer_final_locals: error
+    prefer_final_parameters: error
+    prefer_is_empty: error
+    prefer_is_not_empty: error
+    sized_box_for_whitespace: error
+    sort_constructors_first: error
+    unnecessary_string_escapes: error
 
