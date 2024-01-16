@@ -6,13 +6,13 @@ The set of rules that encourage good coding practices for applications
 To add the package, analysis_options_tbs, to an project:
 
 1. Depend on it
-   Add `analysis_options_tbs` under `dev_dependencies` in the `pubspec.yaml` file.
+   - Add `analysis_options_tbs` under `dev_dependencies` in the `pubspec.yaml` file.
 
 2. Install it
-   From the terminal: Run `flutter pub get`.
+   - From the terminal: Run `flutter pub get`.
 
 3. Import it
-   Add a corresponding include statement in the YAML code.
+   - Add a corresponding include statement in the YAML code.
 
 ## Usage
 
